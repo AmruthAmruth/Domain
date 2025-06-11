@@ -22,7 +22,7 @@ class hashTable{
             this.table[index]=[]
         }
         for(let item of this.table[index]){
-            if(item[0]===key){
+            if(item[0]==key){
                 item[1]=value;
                 return;
             }
